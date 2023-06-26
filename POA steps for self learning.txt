@@ -2,7 +2,7 @@
 cd desktop
 npm create vite@4
 
-2 Install all packages and run project
+2) Install all packages and run project
 npm i
 npm run dev
 
