@@ -1,0 +1,75 @@
+1) create vite, give project folder name and select langauge
+cd desktop
+npm create vite@4
+
+2 Install all packages and run project
+npm i
+npm run dev
+
+3) instal eslint
+npm i eslint vite-plugin-eslint eslint-config-react-app --save-dev
+
+4) creat eslint file
+.eslintrs.json file in src folder
+
+plugin eslint file into vite-config.js file
+
+5) create file structure
+we can also have - 
+pages,
+context,
+hooks
+
+6) React Route 6(data acton, data loader, data fetcher)
+npm install react-router-dom@6
+
+7) Render as you fetch strategy
+   (start fetching the data same time as it starts rendering the route)
+
+  useEffect -data loading waterfall -  fetch on render(rendering happened first then fetching the data)
+
+8) Phone number validation
+https://uibakery.io/regex-library/phone-number
+
+9) API URL
+   https://react-fast-pizza-api.onrender.com/api
+
+10) extensions
+
+ auto complete
+ es7/react/redux
+ prettier
+ eslint
+ auto tag
+ color highlight
+
+11) CRUD Operations of Server state management by react-router-dom
+
+loader - reading remote data(state)
+CSS - https://dev.to/afif/i-made-100-css-loaders-for-your-next-project-4eje
+action(Form) - mutating(changing) remote state(data)
+
+12) useNavigation()
+three stages - idle, loading, submitting,
+
+13) installing tailwind css
+install with vite
+tailwind css intellisense ( in vs code extention)
+npm install -D prettier prettier-plugin-tailwindcss (from google github)
+
+14) index.html
+Can use tailwind utility classes and use onl 'class' attribute not className like in .jsx
+
+15) @apply is use to old css way for reusabiliity of same css propertyy to multple places
+
+16) viewport height
+height:{
+    screen:'100dvh' - dynamic view height( work well in mobile devies)
+   //screen:'100vh' - it might get some problems in mobile devices
+}
+
+17) when we use flexbox we should not use width propert(L-310, 6:40 Min)
+
+18) Emoji as a fevicon
+https://css-tricks.com/emoji-as-a-favicon/
+To open emoji picker - window + .
